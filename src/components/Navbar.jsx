@@ -6,7 +6,7 @@ import logo from "../logo.png";
 const Navbar = () => {
   const { cart } = useSelector((state) => state);
   return (
-    <div className="flex flex-row justify-between items-center h-20 max-w-6xl mx-auto border-t-indigo-950">
+    <div className="flex flex-row justify-between items-center h-20 max-w-6xl mx-auto bg-violet-950">
       <NavLink to="/">
         <div className="ml-6">
           <img src={logo} className="h-14" alt="Logo" />
